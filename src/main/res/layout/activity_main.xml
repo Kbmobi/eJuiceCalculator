@@ -1,0 +1,192 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0"
+    android:shrinkColumns="1"
+    android:orientation="horizontal"
+    tools:context="com.ezekial.ejuicecalculator.MainActivity"
+    android:padding="25dp"
+    android:background="#3b3a36">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/base_nicotine"
+            android:id="@+id/baseNicTxt"
+            android:textColor="#E18428" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/baseNic"
+            android:hint="@string/number"
+            android:layout_gravity="bottom"
+            android:textColorHint="#E0C559"
+            android:textColor="#E0C559" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mgml"
+            android:id="@+id/textView6"
+            android:layout_gravity="bottom"
+            android:textColor="#E18428" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/target_nicotine"
+            android:id="@+id/targetNicTxt"
+            android:textColor="#E18428" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/targetNic"
+            android:hint="@string/number"
+            android:layout_gravity="bottom"
+            android:textColor="#E0C559"
+            android:textColorHint="#E0C559" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/mgml"
+            android:id="@+id/textView7"
+            android:layout_gravity="bottom"
+            android:textColor="#E18428" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/quantity"
+            android:id="@+id/totalQuantityTxt"
+            android:textColor="#E18428" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/quantity"
+            android:hint="@string/number"
+            android:layout_gravity="bottom"
+            android:textColorHint="#E0C559"
+            android:textColor="#E0C559" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ml"
+            android:id="@+id/textView8"
+            android:layout_gravity="bottom"
+            android:textColor="#E18428" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/flavour_percent"
+            android:id="@+id/flavourPercentTxt"
+            android:textColor="#E18428" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/flavor"
+            android:hint="@string/number"
+            android:layout_gravity="bottom"
+            android:textColor="#E0C559"
+            android:textColorHint="#E0C559" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/percentage"
+            android:id="@+id/textView9"
+            android:layout_gravity="bottom"
+            android:textColor="#E18428" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/other_percent"
+            android:id="@+id/otherPercentTxt"
+            android:focusableInTouchMode="false"
+            android:textColor="#E18428" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/other"
+            android:hint="@string/number"
+            android:layout_gravity="bottom"
+            android:textColorHint="#E0C559"
+            android:textColor="#E0C559"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/percentage"
+            android:id="@+id/textView10"
+            android:layout_gravity="bottom"
+            android:textColor="#E18428" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_button"
+            android:id="@+id/submitButton"
+            android:textColor="#e18428"
+            android:background="#171716" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eJuice Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="number">#</string>
+    <string name="mgml">mg/ml</string>
+    <string name="quantity">Total Quantity:</string>
+    <string name="ml">ml</string>
+    <string name="flavour_percent">Flavour Percent:</string>
+    <string name="base_nicotine">Base Nicotine:</string>
+    <string name="percentage">%</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="other_percent">Other Percent:</string>
+    <string name="target_nicotine">Target Nicotine:</string>
+    <string name="title_activity_result">eJuice Calculator Results</string>
+
+</resources>

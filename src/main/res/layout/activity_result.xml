@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ezekial.ejuicecalculator.ResultActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#3b3a36">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/results"
+        android:layout_gravity="center_horizontal|top"
+        android:singleLine="false"
+        android:textColor="#e18428" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="#171716"
+        android:textColor="#e18428"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+</FrameLayout>
